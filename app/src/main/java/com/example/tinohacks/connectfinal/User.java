@@ -59,7 +59,7 @@ public class User {
 
     public static void newBranchInFirebase(String child, String key, String value) {
         myRef.child(MainActivity.currentUser).child(key).setValue(value);
-    }
+    }//sdfghjkl
 
 //    public String getUsername() {
 //        return username;
