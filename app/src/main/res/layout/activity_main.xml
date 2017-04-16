@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tinohacks.connectfinal.MainActivity">
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="255dp"
+        android:layout_height="52dp"
+
+        android:ems="10"
+        android:hint="Username:"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="407dp"
+        android:layout_marginLeft="51dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="255dp"
+        android:layout_height="52dp"
+        android:ems="10"
+        android:hint="Password:"
+        android:inputType="textPassword"
+        android:layout_marginTop="65dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/username"
+        android:layout_alignStart="@+id/username" />
+
+    <Button
+        android:id="@+id/enter"
+        android:layout_width="255dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="30dp"
+        android:text="Enter"
+
+        android:layout_below="@+id/password"
+        android:layout_alignLeft="@+id/password"
+        android:layout_alignStart="@+id/password" />
+
+    <Button
+
+        android:id="@+id/signUp"
+        android:layout_width="259dp"
+        android:layout_height="55dp"
+        android:text="Create an Account"
+        android:layout_below="@+id/enter"
+        android:layout_alignLeft="@+id/enter"
+        android:layout_alignStart="@+id/enter" />
+
+</RelativeLayout>

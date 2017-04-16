@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/hshack/Desktop/connectFinal/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/Users/hshack/Desktop/connectFinal/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_97d1d894fc081854e24bf3231e310a5f5dc5de80/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hshack/Desktop/connectFinal/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0ace5425019156bd19d00e6cf4a0ca9269dcdcfc">
+        <dex dex="/Users/hshack/Desktop/connectFinal/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_868a1457733d6dc2117501316f008a12c4dd77a6/classes.dex" />
+    </item>
+
+</items>
